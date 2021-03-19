@@ -1,0 +1,128 @@
+body {
+  background-color: rgb(238, 230, 232);
+}
+
+.bar-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(204, 119, 119);
+}
+
+li {
+  float: left;
+}
+
+.btn a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.active {
+  background-color: rgb(158, 82, 82);
+  color: rgb(219, 205, 205);
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: rgb(236, 154, 154);
+}
+
+h1 {
+  color: rgb(192, 76, 76);
+  text-align: center;
+}
+
+h3 {
+  color: rgb(156, 29, 93);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 50px;
+  height: 50px;
+}
+/* Style toutes les icônes de polices géniales */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Ajoutez un effet de survol si vous le souhaitez */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: black;
+  color: white;
+}
+/* Instagram */
+.fa-instagram {
+  background: black;
+  color: white;
+}
+
+img {
+  border-radius: 50%;
+  padding: 5px;
+  width: 200px; /* largeur en pixel de la photo */
+  height: 200px; /* hauteur en pixel de la photo */
+}
+
+.rose {
+  text-align: center;
+  padding: 50px;
+  
+}
+
+button {
+  padding: 0px;
+}
+
+.Retour a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  background-color: rgb(204, 119, 119);
+}
+button a:hover {
+  background-color: rgb(236, 154, 154);
+}
+
+.p {
+  background-color: thistle;
+}
+.b {
+  color: rgb(82, 15, 82);
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th {
+  height: 30px;
+  vertical-align: bottomt;
+  background-color: #4caf50;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
